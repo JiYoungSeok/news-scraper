@@ -8,14 +8,14 @@ default: &default
 
 development:
   <<: *default
-  database: news_scraper_development
+  database: today_news_development
 
 test:
   <<: *default
-  database: news_scraper_test
+  database: today_news_test
 
 production:
   <<: *default
-  database: news_scraper_production
-  username: news_scraper
-  password: <%= ENV['NEWS_SCRAPER_DATABASE_PASSWORD'] %>
+  database: today_news_production
+  username: today_news
+  password: <%= ENV['today_news_DATABASE_PASSWORD'] %>

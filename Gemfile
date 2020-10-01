@@ -22,8 +22,11 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-# Rename Rails Project Read mord: https://github.com/morshedalam/rename
+# Rename Rails Project, Read more: https://github.com/morshedalam/rename
 gem 'rename'
+
+# Supplies TimeOfDay class. Read more: https://github.com/JackC/tod
+gem 'tod'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'

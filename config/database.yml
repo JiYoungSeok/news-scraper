@@ -17,5 +17,4 @@ test:
 production:
   <<: *default
   database: today_news_production
-  username: today_news
   password: <%= ENV['today_news_DATABASE_PASSWORD'] %>

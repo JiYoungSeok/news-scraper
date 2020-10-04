@@ -28,6 +28,9 @@ gem 'rename'
 # Supplies TimeOfDay class. Read more: https://github.com/JackC/tod
 gem 'tod'
 
+# HTML, XML, SAX, and Reader parser. Read more: https://nokogiri.org/
+gem 'nokogiri'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
